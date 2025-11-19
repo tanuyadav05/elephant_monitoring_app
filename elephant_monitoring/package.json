@@ -1,0 +1,29 @@
+{
+  "name": "elephantmonitorapp",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web",
+    "dev": "expo start",
+    "eject": "expo eject"
+  },
+  "dependencies": {
+    "expo": "~49.0.0",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-native": "0.71.8",
+    "react-native-maps": "^1.3.2",
+    "@react-navigation/native": "^6.1.6",
+    "@react-navigation/native-stack": "^6.9.8",
+    "react-native-gesture-handler": "~2.10.3",
+    "react-native-reanimated": "~2.14.4",
+    "expo-location": "^15.2.1", 
+    "expo-notifications": "~0.18.0" 
+  },
+  "devDependencies": {
+    "babel-preset-expo": "~9.4.2"
+  }
+}
